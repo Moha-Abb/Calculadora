@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(51, 210, 210);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: 500px;
+}
+
+.solucion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(218, 159, 159);
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    overflow-x: auto;
+    color: brown;
+    font-weight: 800;
+    font-size: 20px;
+
+}
+.solucion:hover{
+    transition: .5s;
+    filter: brightness(80%);
+}
+
+.numeros {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.num1 {
+    background-color: rgb(219, 193, 193);
+    width: 24.60%;
+    padding: 15px 0;
+    border: 1px solid gray;
+    cursor: pointer;
+    color: rgb(125, 40, 40);
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.num1:hover {
+    filter: brightness(60%);
+    transition: .5s;
+}
